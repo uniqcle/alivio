@@ -1,0 +1,173 @@
+/* base */ /* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  /*outline: none;*/
+}
+
+a:focus,
+a:active {
+  /* outline: none;*/
+}
+
+/* Links */
+a, a:link, a:visited {
+  /* color: inherit; */
+  text-decoration: none;
+  /* display: inline-block; */
+}
+
+a:hover {
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("Georgia-Bold.eot");
+  src: local("Georgia Bold"), local("Georgia-Bold"), url("Georgia-Bold.eot?#iefix") format("embedded-opentype"), url("Georgia-Bold.woff") format("woff"), url("Georgia-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Georgia";
+  src: url("Georgia.eot");
+  src: local("Georgia"), url("Georgia.eot?#iefix") format("embedded-opentype"), url("Georgia.woff") format("woff"), url("Georgia.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("Lato-Regular.eot");
+  src: local("Lato Regular"), local("Lato-Regular"), url("Lato-Regular.eot?#iefix") format("embedded-opentype"), url("Lato-Regular.woff") format("woff"), url("Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("Lato-Semibold.eot");
+  src: local("Lato Semibold"), local("Lato-Semibold"), url("Lato-Semibold.eot?#iefix") format("embedded-opentype"), url("Lato-Semibold.woff") format("woff"), url("Lato-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("Lato-Medium.eot");
+  src: local("Lato Medium"), local("Lato-Medium"), url("Lato-Medium.eot?#iefix") format("embedded-opentype"), url("Lato-Medium.woff") format("woff"), url("Lato-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400px;
+  font-size: 20px;
+}
+
+/* utility */
+.none {
+  display: none !important;
+}
+
+.visually-hidden {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  display: block;
+  margin-left: -10000px;
+  background: transparent;
+  font-size: 0;
+}
+
+/* grid */
+.container {
+  width: 1400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* blocks */
+body {
+  background-color: green;
+}
+
+/*# sourceMappingURL=main.css.map */
